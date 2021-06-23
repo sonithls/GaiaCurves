@@ -10,7 +10,7 @@ The package is installable on Python 3.x. To install the package, simply write
 
 Otherwise, clone this repo, and follow the below specified commands
 
-`cd GaiaCurves
-pip install -e .`
+`cd GaiaCurves'
+'pip install -e .`
 
  A list of dependencies is available in requirements.txt
