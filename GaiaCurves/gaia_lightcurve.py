@@ -16,7 +16,7 @@ def gaia_id(obj_name):
     Returns:
         String. Gives back the Gaia ID of the object
     """
-    list_id = Simbad.query_objectids(Obj_name, cache=False)
+    list_id = Simbad.query_objectids(obj_name, cache=False)
     for i in list_id['ID']:
         if i[0:8] == "Gaia DR2":
             print (i)
