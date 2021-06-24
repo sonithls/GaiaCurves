@@ -1,12 +1,12 @@
 from astroquery.simbad import Simbad
 
-def gaia_id(Obj_name):
+def gaia_id(obj_name):
     """ Get Gaia ID for an object
     
     Returns Gaia id for objects available in SIMBAD
     
     Args:
-        Obj_name (string): String. Reference name of objects available in the SIMBAD catalog
+        obj_name (string): String. Reference name of objects available in the SIMBAD catalog
         that we need the Gaia ID for.
 
     Returns:
@@ -18,3 +18,7 @@ def gaia_id(Obj_name):
             print (i)
             gaia_id = i
     return gaia_id[5:]
+
+
+def gaia_fetch(obj_id):
+    
