@@ -10,8 +10,7 @@ def gaia_id(obj_name):
     Returns Gaia id for objects available in SIMBAD
     
     Args:
-        obj_name (string): String. Reference name of objects available in the SIMBAD catalog
-        that we need the Gaia ID for.
+        obj_name (string): String. Reference name of objects available in the SIMBAD catalog that we need the Gaia ID for.
 
     Returns:
         String. Gives back the Gaia ID of the object
