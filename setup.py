@@ -11,12 +11,12 @@ def get_requires():
 
 setup(
     name='GaiaCurves',
-    version='0.1.0',
+    version='1.0.0',
     description='GaiaCurves! Light curves of variable stars from Gaia',
     url='https://github.com/sonithls/GaiaCurves',
     author='',
     author_email='',
-    license='---',
+    license='MIT',
     packages=find_packages(),
     include_dirs=[numpy.get_include()],
     include_package_data = True,
@@ -27,7 +27,7 @@ setup(
         'Topic :: Scientific/Engineering :: Astronomy',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: ---',
+        'License :: OSI Approved :: MIT License',
 
         # Specify the Python versions you support here. 
         'Programming Language :: Python :: 3.7',
