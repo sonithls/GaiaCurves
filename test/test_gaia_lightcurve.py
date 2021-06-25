@@ -2,6 +2,7 @@ import pytest
 import pandas as pd
 from GaiaCurves import gaia_lightcurve as gc
 
+
 def test_gaia_id():
 	""" 
 	Unit test to evaluate the correctness of the gaia_id() function
@@ -23,7 +24,8 @@ def test_fetch_lightcurve_dr2():
 	save_path=gc.fetch_lightcurve_dr2('2154100169676165120')
 	lc=pd.read_csv(save_path)
 	print(len(lc))
-	assert len(lc)==84, "Unexpected length of the Lightcurve fetched from DR2, check function"
+	assert len(lc) == 84, "Unexpected length of the Lightcurve fetched from DR2, check function"
+
 
 def test_fetch_lightcurve_dr1():
 	""" 
