@@ -2,3 +2,4 @@ astroquery
 pandas
 matplotlib
 requests
+nbsphinx
