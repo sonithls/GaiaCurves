@@ -1,4 +1,3 @@
-from astroquery import gaia
 from astroquery.simbad import Simbad
 from astroquery.gaia import Gaia
 import requests
@@ -184,6 +183,3 @@ def plot_lightcurve(csv_path, star, id):
         print('Valid .csv not found.')
 
 warnings.filterwarnings("ignore")
-#table=fetch_curves(['NQ Dra','OGLE LMC570.29.005418' ,'gibberish'])
-#plot_lightcurve(table['NQ Dra']['pathname'],'NQ Dra',table['NQ Dra']['ID'])
-#plot_lightcurve(table['OGLE LMC570.29.005418']['pathname'],'OGLE LMC570.29.005418', table['OGLE LMC570.29.005418']['ID'])
