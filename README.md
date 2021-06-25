@@ -1,4 +1,7 @@
 # GaiaCurves!
+
+[![Documentation Status](https://readthedocs.org/projects/gaiacurves/badge/?version=latest)](https://gaiacurves.readthedocs.io/en/latest/?badge=latest)
+
 <p align="center">
 <img src="logo.png" width="200" title="GaiaCurves logo">
 </p>
