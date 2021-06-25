@@ -17,7 +17,7 @@ setup(
     author='',
     author_email='',
     license='MIT',
-    packages=find_packages(),
+    packages=['astroquery','pandas','matplotlib','requests']
     include_dirs=[numpy.get_include()],
     include_package_data = True,
     zip_safe=False,
