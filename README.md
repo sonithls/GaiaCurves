@@ -1,5 +1,7 @@
 # GaiaCurves!
-
+<p align="center">
+<img src="logo.png" width="200" title="GaiaCurves logo">
+</p>
 ## Motivation
 The package is supposed to give the light curves of variable stars from Gaia Data Releases (1 and 2) with a star name that can be resolved by SIMBAD. It eliminates the need of checking different folders/without going through the task of using separate CSV files and cross-matching tables or Datalink from Gaia, and can work on several stars at once (passed through a CSV)
 
