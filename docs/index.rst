@@ -3,18 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Gaiacurves's documentation!
+Gaiacurves - Documentation!
 ======================================
+
+Welcome to the documentation of ``GaiaCurves``, a Python package for fetching and plotting lightcurves of variable stars using Gaia
+
+User Guides
++++++++++++
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   
+   gaia_lightcurve
+   tutorial
 
 
 
-Indices and tables
-==================
+
+Indices
++++++++
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`

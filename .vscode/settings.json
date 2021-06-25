@@ -1,3 +1,4 @@
 {
-	"python.pythonPath": "/Users/chetanchawla/opt/anaconda3/envs/codeastro/bin/python"
+	"python.pythonPath": "/Users/chetanchawla/opt/anaconda3/envs/codeastro/bin/python",
+	"restructuredtext.confPath": "${workspaceFolder}/docs"
 }
