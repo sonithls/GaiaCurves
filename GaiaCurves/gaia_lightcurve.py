@@ -38,7 +38,7 @@ def fetch_lightcurve_dr2(gaia_id, output_dir='../data/'):
         String. Gives back the path/to/lightcurve/filename.csv where the lightcurve is stored. Returns empty string if no lightcurve is fetched.
     """
     url='https://gea.esac.esa.int/data-server/data?ID=Gaia+DR2+'+gaia_id+'&RETRIEVAL_TYPE=EPOCH_PHOTOMETRY&FORMAT=CSV'
-    save_path=output_dir+gaia_id+'_data.csv'
+    save_path=output_dir+gaia_id+'_data_dr2.csv'
     read_data = requests.get(url, allow_redirects=True)
     if(len(read_data.content)==0):
         print('Could not fetch lightcurve from DR2 for Gaia Source ID '+gaia_id)
@@ -62,7 +62,7 @@ def fetch_lightcurve_dr1(gaia_id, output_dir='../data/'):
     Returns:
         String. Gives back the path/to/lightcurve/filename.csv where the lightcurve is stored. Returns empty string if no lightcurve is fetched.
     """
-    save_path=output_dir+gaia_id+'_data.csv'
+    save_path=output_dir+gaia_id+'_data_dr1.csv'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir) 
     query = 'select solution_id, source_id, observation_time, g_flux, g_flux_error, g_magnitude, \
