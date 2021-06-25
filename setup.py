@@ -8,16 +8,15 @@ def get_requires():
         reqs.append(line)
     return reqs
 
-
 setup(
     name='GaiaCurves',
-    version='1.0.0',
+    version='1.0.1',
     description='GaiaCurves! Light curves of variable stars from Gaia',
     url='https://github.com/sonithls/GaiaCurves',
     author='',
     author_email='',
     license='MIT',
-    packages=['astroquery','pandas','matplotlib','requests']
+    packages=['astroquery','pandas','matplotlib','requests'],
     include_dirs=[numpy.get_include()],
     include_package_data = True,
     zip_safe=False,
