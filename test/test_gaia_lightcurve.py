@@ -50,6 +50,6 @@ def test_end_to_end():
 	"""
 	table=gc.fetch_curves(['OGLE LMC570.29.005418'], ignore='DR2')
 	abs_lc=pd.read_csv(table['OGLE LMC570.29.005418']['pathname'])
-	test_lc=pd.read_csv('test/end_to_end_test.csv')
+	test_lc=pd.read_csv('end_to_end_test.csv')
 	assert abs_lc['observation_time'].all()==test_lc['observation_time'].all(), "Time from ground truth does not match, check module"
 	assert abs_lc['g_magnitude'].all()==test_lc['g_magnitude'].all(), "Magnitude from ground truth does not match, check module"
