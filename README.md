@@ -1,6 +1,7 @@
 # GaiaCurves!
 
-[![Documentation Status](https://readthedocs.org/projects/gaiacurves/badge/?version=latest)](https://gaiacurves.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/gaiacurves/badge/?version=latest)](https://gaiacurves.readthedocs.io/en/latest/?badge=latest) [![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
+
 
 <p align="center">
 <img src="logo.png" width="200" title="GaiaCurves logo">
